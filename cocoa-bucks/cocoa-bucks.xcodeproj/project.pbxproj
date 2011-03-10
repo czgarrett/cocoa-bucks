@@ -16,6 +16,9 @@
 		837252111329522A00555ADD /* cocoa_bucksTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 837252101329522A00555ADD /* cocoa_bucksTests.h */; };
 		837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837252121329522A00555ADD /* cocoa_bucksTests.m */; };
 		8372522A1329541900555ADD /* CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 837252291329541900555ADD /* CBucks.h */; };
+		8372522D1329557F00555ADD /* NSString+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372522B1329557F00555ADD /* NSString+CBucks.h */; };
+		8372522E1329557F00555ADD /* NSString+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372522C1329557F00555ADD /* NSString+CBucks.m */; };
+		8372522F1329557F00555ADD /* NSString+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372522C1329557F00555ADD /* NSString+CBucks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 		837252101329522A00555ADD /* cocoa_bucksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoa_bucksTests.h; sourceTree = "<group>"; };
 		837252121329522A00555ADD /* cocoa_bucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_bucksTests.m; sourceTree = "<group>"; };
 		837252291329541900555ADD /* CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBucks.h; sourceTree = "<group>"; };
+		8372522B1329557F00555ADD /* NSString+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CBucks.h"; sourceTree = "<group>"; };
+		8372522C1329557F00555ADD /* NSString+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CBucks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,8 @@
 		83725226132952E500555ADD /* NS */ = {
 			isa = PBXGroup;
 			children = (
+				8372522B1329557F00555ADD /* NSString+CBucks.h */,
+				8372522C1329557F00555ADD /* NSString+CBucks.m */,
 			);
 			path = NS;
 			sourceTree = "<group>";
@@ -156,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8372522A1329541900555ADD /* CBucks.h in Headers */,
+				8372522D1329557F00555ADD /* NSString+CBucks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8372522E1329557F00555ADD /* NSString+CBucks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */,
+				8372522F1329557F00555ADD /* NSString+CBucks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
