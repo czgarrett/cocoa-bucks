@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837251F71329522A00555ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837251F61329522A00555ADD /* Foundation.framework */; };
+		837252021329522A00555ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837252011329522A00555ADD /* UIKit.framework */; };
+		837252031329522A00555ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837251F61329522A00555ADD /* Foundation.framework */; };
+		837252051329522A00555ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837252041329522A00555ADD /* CoreGraphics.framework */; };
+		837252081329522A00555ADD /* libcocoa-bucks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837251F31329522A00555ADD /* libcocoa-bucks.a */; };
+		8372520E1329522A00555ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8372520C1329522A00555ADD /* InfoPlist.strings */; };
+		837252111329522A00555ADD /* cocoa_bucksTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 837252101329522A00555ADD /* cocoa_bucksTests.h */; };
+		837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837252121329522A00555ADD /* cocoa_bucksTests.m */; };
+		8372522A1329541900555ADD /* CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 837252291329541900555ADD /* CBucks.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837252061329522A00555ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837251EA1329522900555ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837251F21329522A00555ADD;
+			remoteInfo = "cocoa-bucks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837251F31329522A00555ADD /* libcocoa-bucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocoa-bucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837251F61329522A00555ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		837251FA1329522A00555ADD /* cocoa-bucks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoa-bucks-Prefix.pch"; sourceTree = "<group>"; };
+		837252001329522A00555ADD /* cocoa-bucksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cocoa-bucksTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837252011329522A00555ADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		837252041329522A00555ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8372520B1329522A00555ADD /* cocoa-bucksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocoa-bucksTests-Info.plist"; sourceTree = "<group>"; };
+		8372520D1329522A00555ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8372520F1329522A00555ADD /* cocoa-bucksTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoa-bucksTests-Prefix.pch"; sourceTree = "<group>"; };
+		837252101329522A00555ADD /* cocoa_bucksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoa_bucksTests.h; sourceTree = "<group>"; };
+		837252121329522A00555ADD /* cocoa_bucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_bucksTests.m; sourceTree = "<group>"; };
+		837252291329541900555ADD /* CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBucks.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837251F01329522A00555ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837251F71329522A00555ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837251FC1329522A00555ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837252021329522A00555ADD /* UIKit.framework in Frameworks */,
+				837252031329522A00555ADD /* Foundation.framework in Frameworks */,
+				837252051329522A00555ADD /* CoreGraphics.framework in Frameworks */,
+				837252081329522A00555ADD /* libcocoa-bucks.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837251E81329522900555ADD = {
+			isa = PBXGroup;
+			children = (
+				837251F81329522A00555ADD /* cocoa-bucks */,
+				837252091329522A00555ADD /* cocoa-bucksTests */,
+				837251F51329522A00555ADD /* Frameworks */,
+				837251F41329522A00555ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837251F41329522A00555ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837251F31329522A00555ADD /* libcocoa-bucks.a */,
+				837252001329522A00555ADD /* cocoa-bucksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837251F51329522A00555ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837251F61329522A00555ADD /* Foundation.framework */,
+				837252011329522A00555ADD /* UIKit.framework */,
+				837252041329522A00555ADD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		837251F81329522A00555ADD /* cocoa-bucks */ = {
+			isa = PBXGroup;
+			children = (
+				83725225132952E500555ADD /* Classes */,
+				837251F91329522A00555ADD /* Supporting Files */,
+				837252291329541900555ADD /* CBucks.h */,
+			);
+			path = "cocoa-bucks";
+			sourceTree = "<group>";
+		};
+		837251F91329522A00555ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837251FA1329522A00555ADD /* cocoa-bucks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837252091329522A00555ADD /* cocoa-bucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				837252101329522A00555ADD /* cocoa_bucksTests.h */,
+				837252121329522A00555ADD /* cocoa_bucksTests.m */,
+				8372520A1329522A00555ADD /* Supporting Files */,
+			);
+			path = "cocoa-bucksTests";
+			sourceTree = "<group>";
+		};
+		8372520A1329522A00555ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8372520B1329522A00555ADD /* cocoa-bucksTests-Info.plist */,
+				8372520C1329522A00555ADD /* InfoPlist.strings */,
+				8372520F1329522A00555ADD /* cocoa-bucksTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83725225132952E500555ADD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83725226132952E500555ADD /* NS */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83725226132952E500555ADD /* NS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		837251F11329522A00555ADD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8372522A1329541900555ADD /* CBucks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		837251F21329522A00555ADD /* cocoa-bucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837252161329522A00555ADD /* Build configuration list for PBXNativeTarget "cocoa-bucks" */;
+			buildPhases = (
+				837251EF1329522A00555ADD /* Sources */,
+				837251F01329522A00555ADD /* Frameworks */,
+				837251F11329522A00555ADD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cocoa-bucks";
+			productName = "cocoa-bucks";
+			productReference = 837251F31329522A00555ADD /* libcocoa-bucks.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		837251FF1329522A00555ADD /* cocoa-bucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837252191329522A00555ADD /* Build configuration list for PBXNativeTarget "cocoa-bucksTests" */;
+			buildPhases = (
+				837251FB1329522A00555ADD /* Sources */,
+				837251FC1329522A00555ADD /* Frameworks */,
+				837251FD1329522A00555ADD /* Resources */,
+				837251FE1329522A00555ADD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837252071329522A00555ADD /* PBXTargetDependency */,
+			);
+			name = "cocoa-bucksTests";
+			productName = "cocoa-bucksTests";
+			productReference = 837252001329522A00555ADD /* cocoa-bucksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837251EA1329522900555ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "ZWorkbench, Inc.";
+			};
+			buildConfigurationList = 837251ED1329522900555ADD /* Build configuration list for PBXProject "cocoa-bucks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 837251E81329522900555ADD;
+			productRefGroup = 837251F41329522A00555ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837251F21329522A00555ADD /* cocoa-bucks */,
+				837251FF1329522A00555ADD /* cocoa-bucksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837251FD1329522A00555ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8372520E1329522A00555ADD /* InfoPlist.strings in Resources */,
+				837252111329522A00555ADD /* cocoa_bucksTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837251FE1329522A00555ADD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837251EF1329522A00555ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837251FB1329522A00555ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837252071329522A00555ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837251F21329522A00555ADD /* cocoa-bucks */;
+			targetProxy = 837252061329522A00555ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8372520C1329522A00555ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8372520D1329522A00555ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837252141329522A00555ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		837252151329522A00555ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		837252171329522A00555ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/cocoa_bucks.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-bucks/cocoa-bucks-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		837252181329522A00555ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/cocoa_bucks.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-bucks/cocoa-bucks-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8372521A1329522A00555ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-bucksTests/cocoa-bucksTests-Prefix.pch";
+				INFOPLIST_FILE = "cocoa-bucksTests/cocoa-bucksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8372521B1329522A00555ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocoa-bucksTests/cocoa-bucksTests-Prefix.pch";
+				INFOPLIST_FILE = "cocoa-bucksTests/cocoa-bucksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837251ED1329522900555ADD /* Build configuration list for PBXProject "cocoa-bucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837252141329522A00555ADD /* Debug */,
+				837252151329522A00555ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837252161329522A00555ADD /* Build configuration list for PBXNativeTarget "cocoa-bucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837252171329522A00555ADD /* Debug */,
+				837252181329522A00555ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837252191329522A00555ADD /* Build configuration list for PBXNativeTarget "cocoa-bucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8372521A1329522A00555ADD /* Debug */,
+				8372521B1329522A00555ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837251EA1329522900555ADD /* Project object */;
+}
