@@ -13,12 +13,32 @@
 		837252051329522A00555ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837252041329522A00555ADD /* CoreGraphics.framework */; };
 		837252081329522A00555ADD /* libcocoa-bucks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 837251F31329522A00555ADD /* libcocoa-bucks.a */; };
 		8372520E1329522A00555ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8372520C1329522A00555ADD /* InfoPlist.strings */; };
-		837252111329522A00555ADD /* cocoa_bucksTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 837252101329522A00555ADD /* cocoa_bucksTests.h */; };
-		837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837252121329522A00555ADD /* cocoa_bucksTests.m */; };
 		8372522A1329541900555ADD /* CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 837252291329541900555ADD /* CBucks.h */; };
 		8372522D1329557F00555ADD /* NSString+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372522B1329557F00555ADD /* NSString+CBucks.h */; };
 		8372522E1329557F00555ADD /* NSString+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372522C1329557F00555ADD /* NSString+CBucks.m */; };
 		8372522F1329557F00555ADD /* NSString+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372522C1329557F00555ADD /* NSString+CBucks.m */; };
+		8372524E132FF98200555ADD /* NSString+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372524D132FF98200555ADD /* NSString+CBucksTests.m */; };
+		83725251132FFC4700555ADD /* NSArray+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372524F132FFC4700555ADD /* NSArray+CBucks.h */; };
+		83725252132FFC4700555ADD /* NSArray+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 83725250132FFC4700555ADD /* NSArray+CBucks.m */; };
+		83725253132FFC4700555ADD /* NSArray+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 83725250132FFC4700555ADD /* NSArray+CBucks.m */; };
+		83725256132FFC9F00555ADD /* NSArray+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83725255132FFC9E00555ADD /* NSArray+CBucksTests.m */; };
+		83725259132FFFD300555ADD /* NSNumber+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 83725257132FFFD200555ADD /* NSNumber+CBucks.h */; };
+		8372525A132FFFD300555ADD /* NSNumber+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 83725258132FFFD200555ADD /* NSNumber+CBucks.m */; };
+		8372525B132FFFD300555ADD /* NSNumber+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 83725258132FFFD200555ADD /* NSNumber+CBucks.m */; };
+		8372525E1330000000555ADD /* NSNumber+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372525D132FFFFD00555ADD /* NSNumber+CBucksTests.m */; };
+		8372526113300C4F00555ADD /* NSMutableArray+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372525F13300C4900555ADD /* NSMutableArray+CBucks.h */; };
+		8372526213300C4F00555ADD /* NSMutableArray+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526013300C4C00555ADD /* NSMutableArray+CBucks.m */; };
+		8372526313300C4F00555ADD /* NSMutableArray+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526013300C4C00555ADD /* NSMutableArray+CBucks.m */; };
+		8372526613300CA900555ADD /* NSMutableArray+CBucksTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372526413300C9F00555ADD /* NSMutableArray+CBucksTests.h */; };
+		8372526813300CA900555ADD /* NSMutableArray+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526513300CA200555ADD /* NSMutableArray+CBucksTests.m */; };
+		8372526B13300E5700555ADD /* NSDictionary+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372526913300E4600555ADD /* NSDictionary+CBucks.h */; };
+		8372526C13300E5700555ADD /* NSDictionary+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526A13300E4A00555ADD /* NSDictionary+CBucks.m */; };
+		8372526F13300EA300555ADD /* NSDictionary+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526E13300E8C00555ADD /* NSDictionary+CBucksTests.m */; };
+		8372527013304C0800555ADD /* NSDictionary+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372526A13300E4A00555ADD /* NSDictionary+CBucks.m */; };
+		8372527313304CF400555ADD /* NSMutableDictionary+CBucks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8372527113304CD500555ADD /* NSMutableDictionary+CBucks.h */; };
+		8372527413304CF400555ADD /* NSMutableDictionary+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372527213304CDC00555ADD /* NSMutableDictionary+CBucks.m */; };
+		8372527513304CF400555ADD /* NSMutableDictionary+CBucks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372527213304CDC00555ADD /* NSMutableDictionary+CBucks.m */; };
+		8372527813304D5B00555ADD /* NSMutableDictionary+CBucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372527713304D3600555ADD /* NSMutableDictionary+CBucksTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +61,31 @@
 		8372520B1329522A00555ADD /* cocoa-bucksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cocoa-bucksTests-Info.plist"; sourceTree = "<group>"; };
 		8372520D1329522A00555ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8372520F1329522A00555ADD /* cocoa-bucksTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoa-bucksTests-Prefix.pch"; sourceTree = "<group>"; };
-		837252101329522A00555ADD /* cocoa_bucksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoa_bucksTests.h; sourceTree = "<group>"; };
-		837252121329522A00555ADD /* cocoa_bucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoa_bucksTests.m; sourceTree = "<group>"; };
 		837252291329541900555ADD /* CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBucks.h; sourceTree = "<group>"; };
 		8372522B1329557F00555ADD /* NSString+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CBucks.h"; sourceTree = "<group>"; };
 		8372522C1329557F00555ADD /* NSString+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CBucks.m"; sourceTree = "<group>"; };
+		8372524C132FF98200555ADD /* NSString+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CBucksTests.h"; sourceTree = "<group>"; };
+		8372524D132FF98200555ADD /* NSString+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CBucksTests.m"; sourceTree = "<group>"; };
+		8372524F132FFC4700555ADD /* NSArray+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CBucks.h"; sourceTree = "<group>"; };
+		83725250132FFC4700555ADD /* NSArray+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CBucks.m"; sourceTree = "<group>"; };
+		83725254132FFC9E00555ADD /* NSArray+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CBucksTests.h"; sourceTree = "<group>"; };
+		83725255132FFC9E00555ADD /* NSArray+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CBucksTests.m"; sourceTree = "<group>"; };
+		83725257132FFFD200555ADD /* NSNumber+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CBucks.h"; sourceTree = "<group>"; };
+		83725258132FFFD200555ADD /* NSNumber+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CBucks.m"; sourceTree = "<group>"; };
+		8372525C132FFFFC00555ADD /* NSNumber+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CBucksTests.h"; sourceTree = "<group>"; };
+		8372525D132FFFFD00555ADD /* NSNumber+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CBucksTests.m"; sourceTree = "<group>"; };
+		8372525F13300C4900555ADD /* NSMutableArray+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CBucks.h"; sourceTree = "<group>"; };
+		8372526013300C4C00555ADD /* NSMutableArray+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CBucks.m"; sourceTree = "<group>"; };
+		8372526413300C9F00555ADD /* NSMutableArray+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CBucksTests.h"; sourceTree = "<group>"; };
+		8372526513300CA200555ADD /* NSMutableArray+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CBucksTests.m"; sourceTree = "<group>"; };
+		8372526913300E4600555ADD /* NSDictionary+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CBucks.h"; sourceTree = "<group>"; };
+		8372526A13300E4A00555ADD /* NSDictionary+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CBucks.m"; sourceTree = "<group>"; };
+		8372526D13300E8600555ADD /* NSDictionary+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CBucksTests.h"; sourceTree = "<group>"; };
+		8372526E13300E8C00555ADD /* NSDictionary+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CBucksTests.m"; sourceTree = "<group>"; };
+		8372527113304CD500555ADD /* NSMutableDictionary+CBucks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CBucks.h"; sourceTree = "<group>"; };
+		8372527213304CDC00555ADD /* NSMutableDictionary+CBucks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CBucks.m"; sourceTree = "<group>"; };
+		8372527613304D2900555ADD /* NSMutableDictionary+CBucksTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CBucksTests.h"; sourceTree = "<group>"; };
+		8372527713304D3600555ADD /* NSMutableDictionary+CBucksTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CBucksTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +161,7 @@
 		837252091329522A00555ADD /* cocoa-bucksTests */ = {
 			isa = PBXGroup;
 			children = (
-				837252101329522A00555ADD /* cocoa_bucksTests.h */,
-				837252121329522A00555ADD /* cocoa_bucksTests.m */,
+				83725249132FF94100555ADD /* Classes */,
 				8372520A1329522A00555ADD /* Supporting Files */,
 			);
 			path = "cocoa-bucksTests";
@@ -151,6 +190,43 @@
 			children = (
 				8372522B1329557F00555ADD /* NSString+CBucks.h */,
 				8372522C1329557F00555ADD /* NSString+CBucks.m */,
+				8372524F132FFC4700555ADD /* NSArray+CBucks.h */,
+				83725250132FFC4700555ADD /* NSArray+CBucks.m */,
+				83725257132FFFD200555ADD /* NSNumber+CBucks.h */,
+				83725258132FFFD200555ADD /* NSNumber+CBucks.m */,
+				8372525F13300C4900555ADD /* NSMutableArray+CBucks.h */,
+				8372526013300C4C00555ADD /* NSMutableArray+CBucks.m */,
+				8372526913300E4600555ADD /* NSDictionary+CBucks.h */,
+				8372526A13300E4A00555ADD /* NSDictionary+CBucks.m */,
+				8372527113304CD500555ADD /* NSMutableDictionary+CBucks.h */,
+				8372527213304CDC00555ADD /* NSMutableDictionary+CBucks.m */,
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+		83725249132FF94100555ADD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8372524A132FF94100555ADD /* NS */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8372524A132FF94100555ADD /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				8372524C132FF98200555ADD /* NSString+CBucksTests.h */,
+				8372524D132FF98200555ADD /* NSString+CBucksTests.m */,
+				83725254132FFC9E00555ADD /* NSArray+CBucksTests.h */,
+				83725255132FFC9E00555ADD /* NSArray+CBucksTests.m */,
+				8372525C132FFFFC00555ADD /* NSNumber+CBucksTests.h */,
+				8372525D132FFFFD00555ADD /* NSNumber+CBucksTests.m */,
+				8372526413300C9F00555ADD /* NSMutableArray+CBucksTests.h */,
+				8372526513300CA200555ADD /* NSMutableArray+CBucksTests.m */,
+				8372526D13300E8600555ADD /* NSDictionary+CBucksTests.h */,
+				8372526E13300E8C00555ADD /* NSDictionary+CBucksTests.m */,
+				8372527613304D2900555ADD /* NSMutableDictionary+CBucksTests.h */,
+				8372527713304D3600555ADD /* NSMutableDictionary+CBucksTests.m */,
 			);
 			path = NS;
 			sourceTree = "<group>";
@@ -164,6 +240,12 @@
 			files = (
 				8372522A1329541900555ADD /* CBucks.h in Headers */,
 				8372522D1329557F00555ADD /* NSString+CBucks.h in Headers */,
+				83725251132FFC4700555ADD /* NSArray+CBucks.h in Headers */,
+				83725259132FFFD300555ADD /* NSNumber+CBucks.h in Headers */,
+				8372526113300C4F00555ADD /* NSMutableArray+CBucks.h in Headers */,
+				8372526613300CA900555ADD /* NSMutableArray+CBucksTests.h in Headers */,
+				8372526B13300E5700555ADD /* NSDictionary+CBucks.h in Headers */,
+				8372527313304CF400555ADD /* NSMutableDictionary+CBucks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +320,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8372520E1329522A00555ADD /* InfoPlist.strings in Resources */,
-				837252111329522A00555ADD /* cocoa_bucksTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8372522E1329557F00555ADD /* NSString+CBucks.m in Sources */,
+				83725252132FFC4700555ADD /* NSArray+CBucks.m in Sources */,
+				8372525A132FFFD300555ADD /* NSNumber+CBucks.m in Sources */,
+				8372526213300C4F00555ADD /* NSMutableArray+CBucks.m in Sources */,
+				8372526C13300E5700555ADD /* NSDictionary+CBucks.m in Sources */,
+				8372527413304CF400555ADD /* NSMutableDictionary+CBucks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +359,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837252131329522A00555ADD /* cocoa_bucksTests.m in Sources */,
 				8372522F1329557F00555ADD /* NSString+CBucks.m in Sources */,
+				8372524E132FF98200555ADD /* NSString+CBucksTests.m in Sources */,
+				83725253132FFC4700555ADD /* NSArray+CBucks.m in Sources */,
+				83725256132FFC9F00555ADD /* NSArray+CBucksTests.m in Sources */,
+				8372525B132FFFD300555ADD /* NSNumber+CBucks.m in Sources */,
+				8372525E1330000000555ADD /* NSNumber+CBucksTests.m in Sources */,
+				8372526313300C4F00555ADD /* NSMutableArray+CBucks.m in Sources */,
+				8372526813300CA900555ADD /* NSMutableArray+CBucksTests.m in Sources */,
+				8372526F13300EA300555ADD /* NSDictionary+CBucksTests.m in Sources */,
+				8372527013304C0800555ADD /* NSDictionary+CBucks.m in Sources */,
+				8372527513304CF400555ADD /* NSMutableDictionary+CBucks.m in Sources */,
+				8372527813304D5B00555ADD /* NSMutableDictionary+CBucksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +508,7 @@
 				837252181329522A00555ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		837252191329522A00555ADD /* Build configuration list for PBXNativeTarget "cocoa-bucksTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				8372521B1329522A00555ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
